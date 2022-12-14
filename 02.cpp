@@ -3,7 +3,6 @@
 
 // Q: Write a program to search an element from the entered array by the Binary Search Algorithm
 
-#include <algorithm>
 #include <iostream>
 
 using namespace std;
