@@ -56,14 +56,14 @@ int main() {
   cin >> data;
 
   // recrusive method call
-  int location = BinarySearch(array, data, 0, n - 1);
+  int index = BinarySearch(array, data, 0, n - 1);
   // iteration method call
-  // int location = BinarySearch(array, n, data);
+  // int index = BinarySearch(array, n, data);
 
-  if (location == -1) {
+  if (index == -1) {
     cout << "Data not found!\n";
   } else {
-    cout << "Data found at location " << location << "\n";
+    cout << "Data found at index " << index << "\n";
   }
 
   return 0;
