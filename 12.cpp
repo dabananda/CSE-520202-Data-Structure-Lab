@@ -16,7 +16,7 @@ int main() {
   for (int i = 0; i < text.length(); i++) {
     if (text[i] >= 65 && text[i] <= 90 || text[i] >= 97 && text[i] <= 122) {
       chars++;
-    } else if (text[i] >= 49 && text[i] <= 57) {
+    } else if (text[i] >= 48 && text[i] <= 57) {
       digits++;
     } else {
       special_chars++;
